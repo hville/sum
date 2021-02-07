@@ -1,0 +1,33 @@
+{
+  "name": "@hugov/sum",
+  "type": "module",
+  "main": "sum.js",
+  "module": "sum.js",
+  "version": "0.2.1",
+  "description": "kahan compensated sum of array with optional map function",
+  "keywords": [
+    "kahan",
+    "compensated sum",
+    "sum"
+  ],
+  "author": "Hugo Villeneuve",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "assert-op": "^0.6.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hville/sum.git"
+  },
+  "scripts": {
+    "test": "node test",
+    "prepublishOnly": "npm test",
+    "pub": "npm publish --access public"
+  },
+  "bugs": {
+    "url": "https://github.com/hville/sum/issues"
+  },
+  "homepage": "https://github.com/hville/sum#readme"
+}
